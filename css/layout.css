@@ -1,0 +1,36 @@
+/* From DESKTOP to MOBILE*/
+.header,
+main,
+footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #03A9F3;
+}
+.row {
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+}
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+        margin: 0 calc(50% - 400px);
+    }
+}
+@media (max-width: 900px) {
+    .row {
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+}
+@media (max-width: 700px) {
+    .row {
+        width: 400px;
+        margin: 0 calc(50% - 200px);
+    }
+}
+@media (max-width: 500px) {
+    .row {
+        width: calc(100% - 50px);
+        margin: 0 25px;
+    }
+}
