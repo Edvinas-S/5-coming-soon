@@ -49,8 +49,10 @@ footer {
         width: 100%;
         font-size: 15px;
         line-height: 25px;
+    }
 }
 @media (max-width: 414px) {
     .foo_texts > p:nth-child(2) {
         border: none;
+    }
 }
