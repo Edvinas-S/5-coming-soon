@@ -28,9 +28,55 @@ main a {
     color: #EA1E63;
     font-weight: bold;
 }
+main .mailto {
+    text-decoration: none;
+    color: #EA1E63;
+    font-weight: bold;
+}
 .progress_bar {
     width: 100%;
 }
+main .texts {
+    width: 100%;
+    font-size: 15px;
+    color: gray;
+    margin: 10px 0;
+}
+main .label {
+    float: left;
+}
+main .value {
+    float: right;
+}
+main .bar {
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+}
+main .progress {
+    /* in html progress is specified % */
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+main .loading {
+    width: 100%;
+    height: 100%;
+    background-color: #03A9F3;
+    animation: loading 3s linear 1s 1 normal forwards;
+}
 form {
+    width: 100%;
+}
+@media (max-width: 550px) {
+    main .mailto {
+        font-size: 2.5vw;
+    }
+}
+@keyframes loading {
+0% {
+    width: 0;
+}
+100% {
     width: 100%;
 }
