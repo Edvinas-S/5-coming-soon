@@ -48,8 +48,17 @@
             }
         .header .subscribe {
             width: 100%;
-            margin: 25px 0;
         }
+                .subscribe .subs {
+                    width: 100%;
+                    background-color: transparent;
+                }
+                .subscribe .subs::placeholder {
+                    color: #fff;
+                }
+                .subscribe .btn {
+                    margin: 20px;
+                }
         .header .mouse {
             width: 35px;
             height: 60px;

@@ -6,11 +6,15 @@ footer {
         .social {
             width: 100%;
             border-bottom: 2px solid #fff;
+            position: relative;
         }
             .social > a {
                 padding: 20px;
                 color: #fff;
                 text-decoration: none;
+            }
+            footer span {
+                font-size: 0;
             }
         footer img {
             width: 150px;
@@ -33,6 +37,11 @@ footer {
                 border-left: 2px solid #fff;
                 border-right: 2px solid #fff;
                 padding: 0 10px;
+            }
+            .btn-circle {
+                position: absolute;
+                top: -35px;
+                right: -10px;
             }
     footer > .row > p {
         width: 600px;

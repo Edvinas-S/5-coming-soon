@@ -68,9 +68,41 @@ main .loading {
 form {
     width: 100%;
 }
-@media (max-width: 550px) {
-    main .mailto {
-        font-size: 2.5vw;
+input {
+    width: calc(50% - 10px);
+    float: left;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+input + input {
+    margin-left: 20px;
+}
+textarea {
+    width: 100%;
+    float: left;
+    resize: vertical;
+    max-height: 250px;
+    min-height: 90px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+.btn.btn-small {
+    float: right;
+    margin: 20px 0;
+}
+@media (max-width: 1000px) {
+    input {
+        width: 100%;
+    }
+    input + input {
+        margin-left: 0;
     }
 }
 @keyframes loading {
@@ -79,4 +111,16 @@ form {
 }
 100% {
     width: 100%;
+}
+}
+@media (max-width: 700px) {
+    .left {
+        width: 100%;
+        float: left;
+    }
+    .right {
+        width: 100%;
+        float: left;
+        margin-top: 40px;
+    }
 }

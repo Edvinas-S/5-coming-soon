@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <!-- My reset css -->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- 3rd party -->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- Atomic elements -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <!-- Layout -->
     <link rel="stylesheet" href="./css/layout.css">
+    <!-- Structure -->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -37,9 +43,10 @@
                     <div class="label">Seconds</div>
                 </div>
             </div>
-            <div class="subscribe">
-                SUBSCRIBE FORM
-            </div>
+            <form class="subscribe">
+                <input class="subs" type="email" placeholder="Type your email">
+                <div class="btn">Subscribe Now</div>
+            </form>
             <div class="mouse">
                 <div class="wheel"></div>
             </div>
@@ -86,8 +93,11 @@
                 <p>You can use contact form below or contact us via e-mail at:
                     <a href="mailto:trendytheme.net@gmail.com?subject=Matrox!&body=Hi!" target="_blank" class="mailto">trendytheme.net@gmail.com</a> Contact form is fully working and very easy to customize.
                 </p>
-                <form action="email">
-                    MESAGE FORM
+                <form class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn btn-small">Send Message</div>
                 </form>
             </div>
         </div>
@@ -95,13 +105,14 @@
     <footer>
         <div class="row">
             <div class="social">
-                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
-                <a href="https://dribbble.com/" class="fa fa-dribbble" target="_blank"></a>
-                <a href="https://www.tumblr.com/" class="fa fa-tumblr" target="_blank"></a>
-                <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
-                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
-                <a href="https://rss.com/" class="fa fa-rss" target="_blank"></a>
+                <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" rel="noopener"><span>Facebook</span></a>
+                <a href="https://twitter.com/" class="fa fa-twitter" target="_blank" rel="noopener"><span>Twitter</span></a>
+                <a href="https://dribbble.com/" class="fa fa-dribbble" target="_blank" rel="noopener"><span>Dribbble</span></a>
+                <a href="https://www.tumblr.com/" class="fa fa-tumblr" target="_blank" rel="noopener"><span>Tumblr</span></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank" rel="noopener"><span>Linkedin</span></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" rel="noopener"><span>Instagram</span></a>
+                <a href="https://rss.com/" class="fa fa-rss" target="_blank" rel="noopener"><span>RSS</span></a>
+                <a href="#" class="btn btn-circle fa fa-angle-up" rel="noopener"><span>Move to top</span></a>
             </div>
             <img src="./img/matrox.png" alt="Matrox_logo2">
             <div class="foo_texts">

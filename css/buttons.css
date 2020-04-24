@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    padding: 13px 40px;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #EA1E63;
+    color: #fff;
+    box-shadow: 0 4px 8px gray;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(250, 60, 123);
+    box-shadow: 0 4px 8px rgb(94, 93, 93);
+}
+.btn.btn-small {
+    padding: 13px 20px;
+}
+.btn.btn-circle {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 35px;
+    text-align: center;
+    padding: 0;
+}
