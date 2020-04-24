@@ -3,7 +3,7 @@
 # Coming-soon
 ### New site project
 
-This project is for educational porpuses only.
+This project is for educational purposes only.
 
 Site published at https://edvinas-s.github.io/5-coming-soon/
 
