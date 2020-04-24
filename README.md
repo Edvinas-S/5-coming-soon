@@ -12,3 +12,5 @@ Site published at https://edvinas-s.github.io/5-coming-soon/
 
 ##### Instructor (if i can call him that way :))
 [Rimantas](https://github.com/belauzas)
+
+![Auditing performance](https://github.com/Edvinas-S/5-coming-soon/blob/master/trash/Auditing%20Performance.jpg)
